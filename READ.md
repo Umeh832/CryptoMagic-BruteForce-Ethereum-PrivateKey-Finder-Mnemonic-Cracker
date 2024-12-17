@@ -19,6 +19,16 @@ OR python ethmagic.py --view 1000 --file eth5.txt --thread 32
 Polkadot Hunting And Crack Private Key From Mnemonic:
 python dotmagic.py -f dot1000.txt -v 1000 -n 32
 
+Doge Coin Hunting And Crack Private Key from Mnemonic:
+python dogemagic.py -v 1000 -f doge5.txt -n 32
+
+TRX Hunting And Crack Private Key from Mnemonic:
+python trxmagic.py -f trx_rich.txt -v 1000 -n 128
+
+Ripple (XRP) Hunting and Crack Private Key from Mnemonic:
+python xrpmagic.py -f xrp_rich.txt -v 10000 -n 8
+
+
 HOW THE CODE WORKS
 This Python script is designed to generate Ethereum addresses and compare them against a list of "rich addresses" (presumably addresses that hold large amounts of Ethereum) from a text file. If a match is found, it logs the matching address and its associated private key, mnemonic, and master key. Here's a breakdown of its functioning:
 
