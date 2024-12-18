@@ -63,18 +63,21 @@ To hunt and crack private keys from Polkadot (DOT) mnemonics, run:
 
 python dotmagic.py -f dot1000.txt -v 1000 -n 32
 
+Doge:
 To hunt and crack private keys from Dogecoin (DOGE) mnemonics, run:
 
 *Copy code*
 
 python dogemagic.py -v 1000 -f doge5.txt -n 32
 
+Tron:
 To hunt and crack private keys from Tron (TRX) mnemonics, run:
 
 *Copy code*
 
 python trxmagic.py -f trx_rich.txt -v 1000 -n 128
 
+Ripple:
 To hunt and crack private keys from Ripple (XRP) mnemonics, run:
 
 *Copy code*
