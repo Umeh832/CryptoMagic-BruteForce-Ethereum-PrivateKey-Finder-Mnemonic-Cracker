@@ -32,7 +32,7 @@ ________________________________________
 
 Ethereum:
 
-To hunt and crack private keys from Ethereum mnemonics, use the following command:
+To hunt and crack private keys from Ethereum (ETH) mnemonics, use the following command:
 
 *Copy code*
 
@@ -57,11 +57,29 @@ python ethmagic.py -v 1000 -f eth5.txt -n 32
 
 Polkadot:
 
-To hunt and crack private keys from Polkadot mnemonics, run:
+To hunt and crack private keys from Polkadot (DOT) mnemonics, run:
 
 *Copy code*
 
 python dotmagic.py -f dot1000.txt -v 1000 -n 32
+
+To hunt and crack private keys from Dogecoin (DOGE) mnemonics, run:
+
+*Copy code*
+
+python dogemagic.py -v 1000 -f doge5.txt -n 32
+
+To hunt and crack private keys from Tron (TRX) mnemonics, run:
+
+*Copy code*
+
+python trxmagic.py -f trx_rich.txt -v 1000 -n 128
+
+To hunt and crack private keys from Ripple (XRP) mnemonics, run:
+
+*Copy code*
+
+python xrpmagic.py -f xrp_rich.txt -v 10000 -n 8
 ________________________________________
 *How the Code Works*
 
